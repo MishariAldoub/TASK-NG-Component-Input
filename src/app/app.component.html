@@ -1,0 +1,8 @@
+<!-- <app-cat [pet]="pets[0]"></app-cat>
+<app-cat [pet]="pets[1]"></app-cat>
+<app-cat [pet]="pets[2]"></app-cat>
+<app-cat [pet]="pets[3]"></app-cat> -->
+<!-- <li *ngFor="let pet of pets; pet: pets">...</li> -->
+<!-- <li *ngFor="let pet of pets" [pet] = "pet">
+</li> -->
+<app-pet *ngFor="let pet of pets" [pet]="pet"></app-pet>
